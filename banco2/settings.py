@@ -184,5 +184,5 @@ if not DEBUG:
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = ['https://bankfrontsara.netlify.app']
+CORS_ALLOWED_ORIGINS = ['https://bankfrontsara.netlify.app', 'http://192.168.0.8:5173']
 AUTH_USER_MODEL = 'user.CustomUser'
